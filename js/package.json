@@ -1,0 +1,17 @@
+{
+  "name": "minim-api-examples",
+  "version": "1.0.0",
+  "description": "Example of using Minim's API with js",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm example.js"
+  },
+  "author": "Minim",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25"
+  }
+}
