@@ -5,4 +5,5 @@ This repository contains examples of how to use [Minim's API](https://my.minim.c
 
 ## Available Languages
 
-- [JavaScript (NodeJS)](js/README.md)
+- [JavaScript (NodeJS)](js)
+- [Golang](go)
