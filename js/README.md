@@ -13,7 +13,7 @@ Check the [Minim API Documentation](https://my.minim.co/api_doc) for a complete 
 1. Install a [recent version of NodeJS and npm](https://nodejs.org/en/download/)
 2. Generate an [Application ID and Secret Key for your account on Minim](https://my.minim.co/api_keys)
 3. Clone the repository or [download the latest code as a zip](https://github.com/MinimSecure/minim-api-examples/archive/main.zip)
-4. Open a terminal and enter the directory you cloned or extracted the project to
+4. Open a terminal and enter the directory you cloned or extracted the project to then enter the `js/` directory
 5. Use npm to install the JavaScript dependencies
    ```
    npm install
