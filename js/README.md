@@ -1,12 +1,11 @@
 # JavaScript (NodeJS) Example
 
-This folder contains a working example API client for [Minim's API](https://my.minim.co/api_doc) written
-using NodeJS.
+This folder contains a working example API client for [Minim's API](https://my.minim.co/api_doc) written using NodeJS.
 
 Use this project as a starting point for building a NodeJS application that interacts with Minim's API. The `example.js`
-file serves as a starting point with a few example API calls. 
+file serves as a starting point with a few example API calls. We recommend experimenting with basic API calls and useful functions provided in [quick-guides](quick-guides).
 
-Check the [Minim API Documentation](https://my.minim.co/api_doc) for a complete reference of available API calls. 
+Check the [Minim API Documentation](https://my.minim.co/api_doc) for a complete reference of available API calls.
 
 ## Getting Started
 
@@ -18,14 +17,16 @@ Check the [Minim API Documentation](https://my.minim.co/api_doc) for a complete 
    ```
    npm install
    ```
-6. Create a new file in the project directory called `.env` and put your Application ID and Secret Key in it 
-   
-   Use the text below and replace `<YOUR APPLICATION ID HERE>` with your Application ID and `<YOUR SECRET KEY HERE>` 
+6. Create a new file in the project directory called `.env` and put your Application ID and Secret Key in it
+
+   Use the text below and replace `<YOUR APPLICATION ID HERE>` with your Application ID and `<YOUR SECRET KEY HERE>`
    with your Secret Key.
+
    ```
    APPLICATION_ID=<YOUR APPLICATION ID HERE>
    API_SECRET=<YOUR SECERT KEY HERE>
    ```
+
 7. Run the example.js script with npm
    ```
    npm start
