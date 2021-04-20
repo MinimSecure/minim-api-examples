@@ -1,6 +1,6 @@
 # Listing Firmware Data and MAC Addresses
 
-Before proceeding, please follow the instructions in [README.md](README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API. [Click here](What Happens in example.js) for general tips and information on `example.js`.
+Before proceeding, please follow the instructions in [README.md](README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API. [Click here](What Happens in example.js.md) for general tips and information on `example.js`.
 
 As an example, we provide this guide on fetching MAC addresses and firmware versions from your database. Since `unums` is an array of objects containing all client routers, we can declare a custom variable to specify data and then use `map()` to extract that data. Replace line 19 (`console.log(unums)`) in `example.js` with the following code:
 
