@@ -13,7 +13,7 @@ let lanNetworkInfo = unums.map((a) => [
 console.log(lanNetworkInfo);
 ```
 
-A successful output:
+A successful output displays the arrays of values created:
 
 ```javascript
 > minim-api-examples@1.0.0 start
