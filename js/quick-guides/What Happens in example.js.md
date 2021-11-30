@@ -23,4 +23,4 @@ Minim hosts a full list of executable HTTP requests, some of which require IDs t
 
 You can provide particular IDs in your requests to target specific ISPs. For example, adding a speed tier is performed via a POST request to `my.minim.com/v1/isps/{ispId}/speed_tiers`.
 
-`example.js` creates the `unums` variable for you. Using this framework, you can also create a variable for LAN IDs, users, devices, and other useful values. See [Fetching LAN IDs and Updating a LAN](Fetching LAN IDs and Updating a LAN.md) for more details and an example.
+`example.js` creates the `unums` variable for you. Using this framework, you can also create a variable for LAN IDs, users, devices, and other useful values. See [Fetching LAN IDs and Updating a LAN](Fetching_LAN_IDs_and_Updating_a_LAN.md) for more details and an example.
