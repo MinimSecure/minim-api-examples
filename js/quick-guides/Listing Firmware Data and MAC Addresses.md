@@ -2,7 +2,7 @@
 
 This guide demonstrates an example API interaction by fetching MAC addresses and firmware versions from a database. Before proceeding, please follow the instructions in [README.md](/README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API.
 
-Since `unums` is an array of objects containing all client routers, we can use [`map()`](https://www.w3schools.com/jsref/jsref_map.asp) to extract desired values and store the data inside a custom variable. Replace line 19 (`console.log(unums)`) in `example.js` with the following code:
+Since `unums` is an array of objects containing all client routers, we can use [`map()`](https://www.w3schools.com/jsref/jsref_map.asp) to extract desired values and store the data inside a custom variable. Replace line 19 (`console.log(unums)`) in [`example.js`](/js/example.js) with the following code:
 
 ```javascript
 let lanNetworkInfo = unums.map((a) => [
