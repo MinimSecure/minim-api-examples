@@ -2,13 +2,13 @@
 
 Before proceeding, please follow the instructions in [README.md](/README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API.
 
-Many of the calls in the Minim API require IDs to specify single-target actions. For example, LAN IDs are required to make an update to specified LANs in the database. Using `unums` from `example.js` as a framework, this guide demonstrates how to declare a variable that stores LANs as an array of objects and extract an array of LAN IDs.
+Many of the calls in the Minim API require IDs to specify single-target actions. For example, LAN IDs are required to make an update to specified LANs in the database. Using `unums` from [`example.js`](/js/example.js) as a framework, this guide demonstrates how to declare a variable that stores LANs as an array of objects and extract an array of LAN IDs.
 
 We recommend commenting out lines 14-19 while experimenting with other API calls to decrease loading time.
 
 ## Storing a list of LANs in a variable
 
-Within `examples.js`, add the following code inside the asynchronous function:
+Within `example.js`, add the following code inside the asynchronous function:
 
 ```javascript
 let lans = await minim_api.multi_get(`api/v1/lans`);
