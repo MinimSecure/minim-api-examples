@@ -1,8 +1,8 @@
 # Listing Firmware Data and MAC Addresses
 
-Before proceeding, please follow the instructions in [README.md](README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API. [Click here](What Happens in example.js) for general tips and information on `example.js`.
+This guide demonstrates an example API interaction by fetching MAC addresses and firmware versions from a database. Before proceeding, please follow the instructions in [README.md](/README.md) to establish your Minim account with an App ID and Secret Key, enabling you to retrieve, update, and delete data via the Minim API.
 
-As an example, we provide this guide on fetching MAC addresses and firmware versions from your database. Since `unums` is an array of objects containing all client routers, we can declare a custom variable to specify data and then use `map()` to extract that data. Replace line 19 (`console.log(unums)`) in `example.js` with the following code:
+Since `unums` is an array of objects containing all client routers, we can use [`map()`](https://www.w3schools.com/jsref/jsref_map.asp) to extract desired values and store the data inside a custom variable. Replace line 19 (`console.log(unums)`) in `example.js` with the following code:
 
 ```javascript
 let lanNetworkInfo = unums.map((a) => [
@@ -35,9 +35,9 @@ Found 401 IDs, fetching details...
 
 Objects inside `unums` contain a variety of useful values that are fully detailed in [Minim documentation](https://my.minim.co/api_doc). Here are a few examples:
 
-| value                         | Purpose                                                  | data type |
+| Value                         | Description                                              | Data Type |
 | ----------------------------- | -------------------------------------------------------- | --------- |
-| **`firmware_update_version`** | Latest version of Minim software available for this Unum | _String_  |
-| **`last_online_at`**          | Last time Unum was seen on LAN                           | _String_  |
-| **`firmware_updated_at`**     | Time of last recorded firmware update                    | _String_  |
-| **`is_rebooting`**            | Displays if hardware is still mid-reboot                 | _Boolean_ |
+| **`firmware_update_version`** | Latest version of Minim software available for this Unum | String    |
+| **`last_online_at`**          | Last time Unum was seen on LAN                           | String    |
+| **`firmware_updated_at`**     | Time of last recorded firmware update                    | String    |
+| **`is_rebooting`**            | Displays if hardware is processing a reboot              | Boolean   |
