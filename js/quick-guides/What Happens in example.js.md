@@ -12,10 +12,10 @@ The most notable action in `example.js` occurs in lines 14-21 where two importan
 
 Each variable stores data that can be used for further API interaction:
 
-| Variable     | Purpose                                          | Data Type          |
+| Variable     | Description                                          | Data Type          |
 | ------------ | ------------------------------------------------ | ------------------ |
-| **`isp_id`** | Retrieves the unique ID tied to your database    | *String*           |
-| **`unums`**  | A list of Minim-enabled routers separated by IDs | *Array of Objects* |
+| **`isp_id`** | Retrieves the unique ID tied to your database    | String           |
+| **`unums`**  | A list of Minim-enabled routers separated by IDs | Array of Objects |
 
 ## Notes for using these variables alongside [Minim Docs](https://my.minim.co/api_doc)
 
